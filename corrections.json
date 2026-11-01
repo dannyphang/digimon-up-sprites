@@ -1,4 +1,1555 @@
 {
   "pending": [],
-  "applied": []
+  "applied": [
+    {
+      "file": "pichimon/pichimon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "pichimon/pichimon_10.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "pichimon/pichimon_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "bukamon/bukamon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "bukamon/bukamon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "bukamon/bukamon_27.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "bukamon/bukamon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "bukamon/bukamon_21.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "bukamon/bukamon_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gomamon/gomamon_24.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gomamon/gomamon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "vikemon/vikemon_10.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "patamon/patamon_8.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "patamon/patamon_24.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "patamon/patamon_28.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "patamon/patamon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "patamon/patamon_1.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "patamon/patamon_16.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon_3/magnaangemon_3_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon_3/magnaangemon_3_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon/magnaangemon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon_2/magnaangemon_2_13.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon_2/magnaangemon_2_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon/magnaangemon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon_2/magnaangemon_2_6.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon_2/magnaangemon_2_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnaangemon_2/magnaangemon_2_11.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon_2/seraphimon_2_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon/seraphimon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon_2/seraphimon_2_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon/seraphimon_17.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon/seraphimon_18.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon_2/seraphimon_2_8.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon_2/seraphimon_2_5.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "pichimon/pichimon_18.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "poyomon/poyomon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "poyomon/poyomon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_3.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_8.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon/seraphimon_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "seraphimon/seraphimon_13.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_1.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_19.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "tokomon/tokomon_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "angewomon_2/angewomon_2_16.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "angewomon_2/angewomon_2_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "angewomon_2/angewomon_2_25.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "demiveemon/demiveemon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "demiveemon/demiveemon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "demiveemon/demiveemon_23.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "demiveemon/demiveemon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "demiveemon/demiveemon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "dinobeemon/dinobeemon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "dinobeemon/dinobeemon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "dinobeemon/dinobeemon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "exveemon/exveemon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "exveemon/exveemon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "exveemon/exveemon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "exveemon/exveemon_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "exveemon/exveemon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_18.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_19.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_22.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_24.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_25.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_6.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "gatomon/gatomon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_dragonmode/imperialdramon_dragonmode_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_dragonmode/imperialdramon_dragonmode_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_dragonmode/imperialdramon_dragonmode_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_dragonmode/imperialdramon_dragonmode_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_dragonmode/imperialdramon_dragonmode_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_dragonmode_2/imperialdramon_dragonmode_2_1.png",
+      "rotate": 180,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_dragonmode_2/imperialdramon_dragonmode_2_13.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_fightermode/imperialdramon_fightermode_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_fightermode_3/imperialdramon_fightermode_3_1.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_fightermode_3/imperialdramon_fightermode_3_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "imperialdramon_fightermode_3/imperialdramon_fightermode_3_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "leafmon/leafmon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "leafmon/leafmon_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "leafmon/leafmon_17.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "leafmon/leafmon_28.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "leafmon/leafmon_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "leafmon/leafmon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_13.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_17.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_21.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_6.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon/magnadramon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon_2/magnadramon_2_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon_2/magnadramon_2_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon_2/magnadramon_2_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon_2/magnadramon_2_6.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "magnadramon_2/magnadramon_2_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_13.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_16.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_25.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_26.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_27.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "minomon/minomon_8.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_1.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_14.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_19.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_23.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_27.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "nyaromon/nyaromon_9.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "paildramon_2/paildramon_2_1.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "paildramon_3/paildramon_3_1.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "paildramon_3/paildramon_3_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "paildramon_3/paildramon_3_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "paildramon_3/paildramon_3_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "paildramon_3/paildramon_3_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "salamon/salamon_17.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "salamon/salamon_23.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "salamon/salamon_24.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "salamon/salamon_26.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "salamon/salamon_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "salamon/salamon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "stingmon/stingmon_20.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "stingmon/stingmon_5.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "stingmon/stingmon_6.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "veemon/veemon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "veemon/veemon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "veemon/veemon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "veemon/veemon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "yukimibotamon/yukimibotamon_17.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "yukimibotamon/yukimibotamon_21.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "yukimibotamon/yukimibotamon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "yukimibotamon/yukimibotamon_6.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "yukimibotamon/yukimibotamon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-01"
+    },
+    {
+      "file": "ankiromon/ankiromon_24.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "aquilamon/aquilamon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "aquilamon/aquilamon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "aquilamon/aquilamon_18.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "aquilamon/aquilamon_19.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "aquilamon/aquilamon_26.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "aquilamon/aquilamon_6.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "armadillomon/armadillomon_24.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "armadillomon/armadillomon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_16.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_4.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_8.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon/gallantmon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gallantmon_2/gallantmon_2_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_1.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_16.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_18.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_23.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "gigimon/gigimon_8.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "hawkmon/hawkmon_11.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "hawkmon/hawkmon_17.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "hawkmon/hawkmon_5.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "hawkmon/hawkmon_6.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "jyarimon/jyarimon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "jyarimon/jyarimon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "jyarimon/jyarimon_21.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "jyarimon/jyarimon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "megagargomon/megagargomon_2.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "poromon/poromon_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "poromon/poromon_16.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "poromon/poromon_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "poromon/poromon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_23.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_26.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_27.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_28.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_31.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "rapidmon/rapidmon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "renamon/renamon_2.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "renamon/renamon_22.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "renamon/renamon_25.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "renamon/renamon_28.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "renamon/renamon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "renamon_2/renamon_2_1.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "sakuyamon/sakuyamon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "sakuyamon/sakuyamon_19.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "sakuyamon_2/sakuyamon_2_24.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "sakuyamon_2/sakuyamon_2_25.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "shakkoumon/shakkoumon_18.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "shakkoumon/shakkoumon_19.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "shakkoumon/shakkoumon_21.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "shakkoumon/shakkoumon_26.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "shakkoumon/shakkoumon_27.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "silphymon/silphymon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "silphymon/silphymon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "silphymon/silphymon_15.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "silphymon/silphymon_17.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "silphymon/silphymon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "silphymon/silphymon_23.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "slashangemon/slashangemon_1.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "slashangemon/slashangemon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "slashangemon_2/slashangemon_2_14.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "slashangemon_2/slashangemon_2_2.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "slashangemon_2/slashangemon_2_6.png",
+      "rotate": 270,
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "taomon/taomon_24.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "terriermon/terriermon_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "terriermon/terriermon_14.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "terriermon/terriermon_20.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "terriermon/terriermon_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "terriermon/terriermon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "tsubumon/tsubumon_15.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "tsubumon/tsubumon_8.png",
+      "flip": "horizontal",
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon/valkyrimon_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon/valkyrimon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon_2/valkyrimon_2_10.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon_2/valkyrimon_2_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon_2/valkyrimon_2_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon_2/valkyrimon_2_16.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon_2/valkyrimon_2_4.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "valkyrimon_2/valkyrimon_2_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "viximon/viximon_11.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "viximon/viximon_13.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "viximon/viximon_22.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "viximon/viximon_23.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "viximon/viximon_24.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "viximon/viximon_26.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_1.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_12.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_13.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_2.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_3.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_5.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_7.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_8.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    },
+    {
+      "file": "zerimon/zerimon_9.png",
+      "rotate": 90,
+      "note": "found by matching the game recording",
+      "applied": "2026-11-02"
+    }
+  ]
 }
