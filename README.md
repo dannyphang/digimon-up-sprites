@@ -78,7 +78,8 @@ count crop pixels on the picture after it has been turned.
 
 When you open a pull request to the `dev` branch, GitHub checks your entries and tells you if one
 is wrong (a file that doesn't exist, a rotate of 45...). Once it is merged,
-GitHub fixes the sprites by itself and moves your entries to `"applied"`, so
+GitHub fixes the sprites by itself in a follow-up pull request and moves
+your entries to `"applied"`, so
 everyone can see what was changed.
 
 ## Sending changes

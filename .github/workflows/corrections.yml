@@ -20,12 +20,14 @@ jobs:
       - run: pip install pillow
       - run: python .github/scripts/corrections.py check
 
-  # once merged: fix the sprites and move the entries to "applied"
+  # once merged into dev: fix the sprites and open a pull request with them
+  # (dev is protected, so the owner merges the fixes like any other change)
   apply:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,9 +35,16 @@ jobs:
           python-version: "3.12"
       - run: pip install pillow
       - run: python .github/scripts/corrections.py apply
-      - run: |
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --quiet && exit 0
+          branch="sprite-fixes-${{ github.run_number }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
           git add -A sprites corrections.json
-          git diff --cached --quiet || git commit -m "Apply sprite corrections"
-          git push
+          git commit -m "Apply sprite corrections"
+          git push origin "$branch"
+          gh pr create --base dev --head "$branch" --title "Apply sprite corrections" \
+            --body "Fixes the sprites listed in corrections.json and moves the entries to \"applied\"."
