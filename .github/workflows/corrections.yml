@@ -1,0 +1,41 @@
+name: Sprite corrections
+
+on:
+  pull_request:
+    paths: [corrections.json]
+  push:
+    branches: [dev]
+    paths: [corrections.json]
+
+jobs:
+  # on a pull request: make sure the listed fixes make sense
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python .github/scripts/corrections.py check
+
+  # once merged: fix the sprites and move the entries to "applied"
+  apply:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python .github/scripts/corrections.py apply
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A sprites corrections.json
+          git diff --cached --quiet || git commit -m "Apply sprite corrections"
+          git push
