@@ -142,13 +142,29 @@ extra bits around them. Don't edit the picture yourself. Add it to the
 Use any of rotate, flip and crop together. They happen in that order, so
 count crop pixels on the picture after it has been turned.
 
-When you open a pull request to the `dev` branch, GitHub checks your entries and tells you if one
-is wrong (a file that doesn't exist, a rotate of 45...). Once it is merged,
+When you open a pull request, GitHub checks your entries and tells you if one
+is wrong (a file that doesn't exist, a rotate of 45...). Once it is merged into `dev`,
 GitHub fixes the sprites by itself in a follow-up pull request and moves
 your entries to `"applied"`, so
 everyone can see what was changed.
 
-## Sending changes
+## Branches and sending changes
 
-Open your pull request against the **`dev`** branch. The owner reviews every
-change, and `dev` is merged into `main` from time to time.
+| branch | what it is |
+|---|---|
+| `main` | the released version: what you see on the repo's front page. Use it if you just want the frames and profiles. |
+| `dev` | where new work goes. Start your changes from here. |
+
+To contribute, fork the repo (untick **Copy the `main` branch only**, so your
+fork gets `dev` too), then work from `dev`:
+
+```bash
+git clone https://github.com/<your-github-name>/digimon-up-sprites.git
+cd digimon-up-sprites
+git switch dev
+git switch -c my-change
+```
+
+Open your pull request against **`dev`**, not `main`: GitHub picks `main`
+by default, so change the base branch to `dev` when you create it. The owner
+reviews every change, and `dev` is merged into `main` from time to time.
