@@ -1,7 +1,8 @@
-# Digimon Sprites & Animation Sequences
+# Digimon Animations & Profiles
 
-Sprites of the Digimon, cut into single frames, plus a table of which frames
-make up each animation. Help us find the right order for every Digimon!
+Every Digimon's idle, walking, attack and faint animations as ready-to-play
+frames, plus a bilingual profile of each Digimon (English and 中文). Help us
+fill in the profiles and choose which animations to add next!
 
 > The Digimon artwork belongs to Bandai Namco. This is a non-commercial fan
 > project; the sprites are shared for fan use only.
@@ -9,50 +10,109 @@ make up each animation. Help us find the right order for every Digimon!
 ## What's here
 
 ```
-sprites/<digimon>/<digimon>_<n>.png     the frames of one Digimon
-sprites/<digimon>_2/<digimon>_2_<n>.png  an extra sheet of the same Digimon
-sequences.csv                           the animation table
+baked/<digimon>/<animation>/f_NNN.png    every animation as ready-to-play frames
 digimon.json                            every Digimon's name, stage, attribute, type,
-                                        evolutions and description (English and 中文)
+                                        evolutions and description
+sprites/<digimon>/<digimon>_<n>.png     the original sprite sheets, cut into single frames
+corrections.json                        fixes for frames in sprites/
 ```
 
-`digimon.json` uses the wording of the official Digimon Encyclopedia at
-[digimon.net](https://digimon.net/reference_en/); each entry links to its page
-in `source`.
+## The baked frames
 
-## How to read `sequences.csv`
+The frames in `baked/` are rendered from the game's own animations, so every
+pose, jump and effect is already in the right order. Each Digimon has four
+animations:
 
-| column | meaning |
+| folder | animation |
 |---|---|
-| digimon name | the folder name in `sprites/` |
-| stage | Baby, In-Training, Rookie, Champion, Ultimate or Mega |
-| idle | standing still, breathing |
-| walking | walking (or flying) on the spot |
-| attack | the attack move |
-| faint/knock down | falling down when beaten |
+| `idle` | standing still, breathing |
+| `walking` | walking (or flying) on the spot |
+| `attack` | the attack move |
+| `faint` | falling down when beaten |
 
-Each animation is a list of frame numbers in play order, separated by spaces.
+Play `f_000.png`, `f_001.png`, … in order, each for **62.5 ms** (16 frames a
+second); the number of files is the length of the animation. `idle`,
+`walking` and `attack` loop; `faint` plays once and stays on its last frame.
+All frames of one Digimon are the same size and share one origin, so stack
+them without moving them.
 
-- `13` means `sprites/agumon/agumon_13.png`
-- `2:16` means frame 16 of the extra sheet: `sprites/garudamon_2/garudamon_2_16.png`
+Some Digimon come in more than one look, named `<digimon>_<version>`:
+`agumon_adventure` is Agumon from Digimon Adventure, `gekkomon_runevent_fever`
+a Gekkomon from an event.
 
-Every frame is shown for about 0.13 seconds, then the list loops.
+## `digimon.json`
 
-An empty cell means nobody has worked it out yet.
+One profile per Digimon, in the wording of the official Digimon Encyclopedia
+at [digimon.net](https://digimon.net/reference_en/). Its `folder` is the
+folder name in `baked/`; a version like `agumon_adventure` uses the profile of
+`agumon`. Agumon's profile, shortened:
+
+```json
+{
+  "folder": "agumon",
+  "name": { "en": "Agumon", "zh": "亞古獸" },
+  "stage": { "en": "Rookie", "zh": "成長期" },
+  "attribute": { "en": "Vaccine", "zh": "疫苗種" },
+  "type": { "en": "Reptile", "zh": "爬蟲類型" },
+  "evolves_from": ["koromon"],
+  "evolves_to": ["greymon", "numemon[mistake]", "wargreymon[warp]"],
+  "description": { "en": "...", "zh": "..." },
+  "source": "https://digimon.net/reference_en/detail.php?directory_name=agumon"
+}
+```
+
+| key | values |
+|---|---|
+| name, attribute, type, description | `en` English, `zh` Traditional Chinese; add `zh_hans` for Simplified if you like |
+| stage | `Baby I` 幼年期Ⅰ, `Baby II` 幼年期Ⅱ, `Rookie` 成長期, `Champion` 成熟期, `Ultimate` 完全體, `Mega` 究極體, `Mega+` 究極體 or `Armor` 裝甲體 |
+| attribute | `Vaccine`, `Data`, `Virus`, `Free` or `Unknown`; empty for Baby I and II |
+| evolves_from, evolves_to | other Digimon by `folder`, each of which needs its own profile |
+| source | the Digimon's page on digimon.net |
+
+An evolution can carry a tag saying how it happens: `[dark]`, `[mistake]`
+(care mistake), `[warp]`, `[armor]` or `[mode]` (mode change). A fusion (DNA
+digivolution) is `exveemon+stingmon` in `evolves_from`, and
+`paildramon(+stingmon)` in `evolves_to`.
 
 ## How to help
 
-1. Watch the Digimon in the game's encyclopedia (or a recording of it).
-2. Open the Digimon's folder in `sprites/` and find the frames that match each pose.
-3. Fix or fill in the row in `sequences.csv`.
-4. Send your change (pull request or issue), and say which Digimon and animation you checked.
+1. **Write a missing profile.** Some Digimon in `baked/` have none yet.
+2. **Fill in or fix a profile:** an empty field, a wrong stage, a missing
+   evolution, a better translation, Simplified Chinese names.
+3. **Ask for more animations** (see below).
+4. **Fix a sprite** in `sprites/` that's sideways or cut wrong (see below).
 
-Wanted most:
+To see what's missing right now, run this in the repo folder (Python 3):
 
-- **faint/knock down** for every Digimon (all empty)
-- the rows for Digimon that aren't in the table yet
-- double-checking: Tentomon walking, MegaKabuterimon walking, Phoenixmon idle
-  and attack, HerculesKabuterimon walking and attack, Kabuterimon attack
+```bash
+python .github/scripts/profiles.py todo
+```
+
+Before sending a profile change, check it (GitHub runs the same check on your
+pull request):
+
+```bash
+python .github/scripts/profiles.py check
+```
+
+When you add a profile, add the evolution on both ends, for example `veemon`'s
+`evolves_to` and `magnamon`'s `evolves_from`.
+
+## More animations
+
+The game has more animations than the four in `baked/`:
+
+| animation | which Digimon |
+|---|---|
+| stun (hit, staggering) | every Digimon |
+| evolve (the evolution glow) | 90 Digimon |
+| jump, fall, slide | the Gekkomon event versions |
+| run_fever (fast run) | `gekkomon`, `gekkomon_runevent_shadow` |
+
+Want one of them, or does a baked animation look wrong (a missing part, an
+effect cut off)? Open an issue with the **More animations** form and say which
+Digimon, which animation, and what you'd use it for. The most requested ones
+get added to `baked/`.
 
 ## Fixing a sprite (rotate, flip, crop)
 

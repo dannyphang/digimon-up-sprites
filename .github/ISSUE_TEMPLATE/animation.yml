@@ -1,0 +1,34 @@
+name: More animations
+description: Ask for an animation that isn't in baked/ yet, or report a baked one that looks wrong
+title: "Animation: "
+labels: [animation]
+body:
+  - type: input
+    id: digimon
+    attributes:
+      label: Digimon
+      description: Folder name in baked/, e.g. agumon or gekkomon_runevent
+    validations:
+      required: true
+  - type: dropdown
+    id: animation
+    attributes:
+      label: Animation
+      options:
+        - stun (hit, staggering)
+        - evolve (the evolution glow)
+        - jump
+        - fall
+        - slide
+        - run_fever (fast run)
+        - idle, walking, attack or faint looks wrong
+        - something else
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What you'd use it for, or what looks wrong (which frame, what you expected)
+    validations:
+      required: false
