@@ -12,7 +12,13 @@ make up each animation. Help us find the right order for every Digimon!
 sprites/<digimon>/<digimon>_<n>.png     the frames of one Digimon
 sprites/<digimon>_2/<digimon>_2_<n>.png  an extra sheet of the same Digimon
 sequences.csv                           the animation table
+digimon.json                            every Digimon's name, stage, attribute, type,
+                                        evolutions and description (English and 中文)
 ```
+
+`digimon.json` uses the wording of the official Digimon Encyclopedia at
+[digimon.net](https://digimon.net/reference_en/); each entry links to its page
+in `source`.
 
 ## How to read `sequences.csv`
 
